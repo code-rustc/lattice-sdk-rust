@@ -1,0 +1,6 @@
+pub use crate::prelude::*;
+
+/// A MergedFrom relationship is a uni-directional relationship indicating that this entity is a merged entity whose
+/// data has at least partially been merged from the related entity.
+#[derive(Debug, Clone, Serialize, Deserialize, PartialEq, Eq, Hash)]
+pub struct MergedFrom {}
